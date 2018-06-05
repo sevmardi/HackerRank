@@ -27,8 +27,6 @@ public class Solution {
 			int com = number == 0 ? k: number;
 			count += a[k-com];
 			a[number] +=1;
-			
-			
 		}
 		System.out.println(count);
 		
